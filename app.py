@@ -653,4 +653,3 @@ def _fit_into_box(img: Dict[str, int], box: Dict[str, int]) -> Dict[str, int]:
     nl = box["left"] + (bw - nw) // 2
     nt = box["top"] + (bh - nh) // 2
     return _rect(nl, nt, nw, nh)
-
